@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <title>Tareas</title>
+</head>
+
+<body>
+    <div class="navbar1">
+        <div>
+            <nav>
+             <div class="flex-logo">
+                    <span class="logos">
+                      <a href="">
+                        <img class="logos" src="./assets/planificacion.png" width="70px" height="50px">
+                      </a>
+                    </span>
+            </div> 
+                
+            <div class="flex-menu"> 
+               <div class="flexprincipal">        
+                  <a href="" class="inline1">Iniciar sesión profesores</a>
+               </div> 
+               <div class="flex-inicio">
+                  <a href="">Iniciar sesión alumnos</a>
+              </div>
+            </div>
+               
+             </div>
+            </nav>
+        </div>
+       <header>
+        <h1 style="text-align: center; font-size: 30px; margin-top: 20px;">Repositorio de tareas de clase</h1>
+       </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nombreInput">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-primary btn-block mb-2" onclick="agregarNombre()">Agregar</button>
+                    <button type="button" class="btn btn-danger btn-block mb-2" onclick="limpiarStorage()">Eliminar</button>
+                    <!-- <button type="button" class="btn btn-primary btn-block mb-2" onclick="actualizarLista()">Actualizar</button> -->
+                </div>
+                <div class="col-md-12 mt-3">
+                    <ul class="list-group" id="lista">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            A list item
+                            <button type="button" class="btn btn-danger btn-sm"> X</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container grid-3">
+          <div class="copyrights">
+            <h1>Homeucamp</h1>
+            <p>Copyright &copy; 2023</p>
+          </div>
+          <nav class="links">
+            <ul>
+              <li><a href="" class="outline">Home</a></li>
+              <li><a href="" class="outline">Tutors</a></li>
+              <li><a href="" class="outline">Categories</a></li>
+            </ul>
+          </nav>
+          <div class="profiles">
+            <a href=""><em class="fab fa-twitter fa-2x"></em></a>
+            <a href=""><em class="fab fa-instagram fa-2x"></em></a>
+            <a href=""><em class="fab fa-facebook fa-2x"></em></a>
+            <a href=""><em class="fab fa-whatsapp fa-2x"></em></a>
+          </div>
+        </div>
+      </footer>
+
+</body>
+<script src="assets/js/main.js"></script>
+
+</html>

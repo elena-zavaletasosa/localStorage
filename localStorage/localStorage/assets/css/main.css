@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #52687e;
+  text-align: left;
+  background-color: #1c1b1e;
+}
+
+.site-header a {
+  color: #3c3333;
+  transition: ease-in-out color .15s;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+footer {
+  margin-top: 200px;
+  width: 100%;
+  color: rgb(32, 32, 36);
+}
+
+.cuadro-gris {
+  background-color: #463a3a;
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  background-color: #474757;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+footer a {
+  color: white;
+  margin: 20px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+
+a {
+  display:flex;
+  color: #ebeef4;
+  text-decoration:none;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px 10px 5px 100px;
+ 
+}
+a:hover {
+  background-color: #df172bc1;
+  text-decoration: none;
+}
+
+.flex-logo {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin:0%;
+  margin-top: 10px;
+  
+}
+
+.flex-menu {
+  display: flex;
+  align-content:center;
+  justify-content: flex-end; 
+  margin: -30px 30px 0 0;
+  background-color: #474757;
+}
+
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+h1 {
+  color:aliceblue;
+}
+
+p {
+  color:aliceblue;
+}
+
+.links li {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }}
